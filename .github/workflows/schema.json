@@ -1,0 +1,61 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "coinbase_tags": {
+                "/LUXOR/": {
+                    "name": "Luxor",
+                    "link": "https://mining.luxor.tech"
+                }
+            },
+            "payout_addresses": {
+                "3Bmb9Jig8A5kHdDSxvDZ6eryj3AXd3swuJ": {
+                    "name": "NovaBlock",
+                    "link": "https://novablock.com"
+                }
+            }
+        }
+    ],
+    "required": [
+        "coinbase_tags",
+        "payout_addresses"
+    ],
+    "properties": {
+        "coinbase_tags": {
+            "$id": "#/properties/coinbase_tags",
+            "type": "object",
+            "title": "The coinbase_tags schema",
+            "description": "Maps coinbase_tags to the respective Bitcoin mining pool.",
+            "default": {},
+            "examples": [
+                {
+                    "/LUXOR/": {
+                        "name": "Luxor",
+                        "link": "https://mining.luxor.tech"
+                    }
+                }
+            ]
+        },
+        "payout_addresses": {
+            "$id": "#/properties/payout_addresses",
+            "type": "object",
+            "title": "The payout_addresses schema",
+            "description": "Maps coibase output addresses to the respective Bitcoin mining pool.",
+            "default": {},
+            "examples": [
+                {
+                    "3Bmb9Jig8A5kHdDSxvDZ6eryj3AXd3swuJ": {
+                        "name": "NovaBlock",
+                        "link": "https://novablock.com"
+                    }
+                }
+            ]
+        }
+    },
+    "additionalProperties": true
+}
