@@ -20,6 +20,10 @@
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
         },
+        "BTCPool" : {
+            "name" : "BTCPool (unidentified)",
+            "link" : "https://github.com/0xB10C/known-mining-pools/issues/28"
+        },
         "BITFARMS": {
             "name": "Bitfarms",
             "link": "https://www.bitarms.io/"
