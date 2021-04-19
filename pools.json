@@ -44,6 +44,10 @@
             "name": "CanoePool",
             "link": "https://www.canoepool.com/"
         },
+        "/ArkPool/": {
+            "name": "ArkPool",
+            "link": ""
+        },
         "/BTC.TOP/": {
             "name" : "BTC.TOP",
             "link" : "https://www.btc.top/"
@@ -1084,6 +1088,10 @@
         },
         "bc1qwlrsvgtn99rqp3fgaxq6f6jkgms80rnej0a8tc": {
             "name": "TogetherPool",
+            "link": ""
+        },
+        "1QEiAhdHdMhBgVbDM7zUXWGkNhgEEJ6uLd": {
+            "name": "ArkPool",
             "link": ""
         },
         "12cKiMNhCtBhZRUBCnYXo8A4WQzMUtYjmR": {
