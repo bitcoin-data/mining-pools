@@ -562,7 +562,7 @@
        	},
         "TogetherPool": {
             "name": "TogetherPool",
-            "link": ""
+            "link": "https://www.togetherpool.com"
         }
     },
     "payout_addresses" : {
@@ -1120,7 +1120,7 @@
         },
         "bc1qwlrsvgtn99rqp3fgaxq6f6jkgms80rnej0a8tc": {
             "name": "TogetherPool",
-            "link": ""
+            "link": "https://www.togetherpool.com"
         },
         "1QEiAhdHdMhBgVbDM7zUXWGkNhgEEJ6uLd": {
             "name": "ArkPool",
