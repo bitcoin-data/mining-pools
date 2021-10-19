@@ -1186,6 +1186,10 @@
             "name" : "Carbon Negative (unidentified)",
             "link" : "https://github.com/0xB10C/known-mining-pools/issues/48"
         },
+        "1MkCDCzHpBsYQivp8MxjY5AkTGG1f2baoe": {
+            "name": "Luxor",
+            "link": "https://mining.luxor.tech"
+        },
         "1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
             "name" : "Foundry USA",
             "link" : "https://foundrydigital.com/"
