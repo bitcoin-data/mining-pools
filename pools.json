@@ -12,6 +12,10 @@
             "name": "1THash",
             "link": "https://www.1thash.top"
         },
+        "terrapool.io": {
+            "name": "Terra Pool",
+            "link": "https://terrapool.io/"
+        },
         "/BTC.COM/" : {
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
@@ -653,6 +657,10 @@
         "19PkHafEN18mquJ9ChwZt5YEFoCdPP5vYB" : {
             "name" : "BitMinter",
             "link" : "https://bitminter.com/"
+        },
+        "32P5KVSbZYAkVmSHxDd2oBXaSk372rbV7L": {
+            "name": "Terra Pool",
+            "link": "https://terrapool.io/"
         },
         "15xiShqUqerfjFdyfgBH1K7Gwp6cbYmsTW" : {
             "name" : "EclipseMC",
