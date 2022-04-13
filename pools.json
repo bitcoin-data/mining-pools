@@ -64,6 +64,10 @@
             "name" : "Bitcoin.com",
             "link" : "https://www.bitcoin.com/"
         },
+        "BlockfillsPool" : {
+            "name": "BlockFills",
+            "link": "https://www.blockfills.com/mining/"
+        },
         "Mined By 175btc.com" : {
             "name" : "175btc",
             "link" : "https://www.175btc.com/"
@@ -621,6 +625,10 @@
         "16jnC5hVyjk4gE6BJtLqkkyfZHqXCB5PBu" : {
             "name" : "Polmine",
             "link" : "https://polmine.pl/"
+        },
+        "1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry" : {
+            "name": "BlockFills",
+            "link": "https://www.blockfills.com/mining/"
         },
         "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE" : {
             "name" : "SlushPool",
