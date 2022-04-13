@@ -120,6 +120,10 @@
             "name" : "MaxBTC",
             "link" : "https://maxbtc.com/"
         },
+        "KuCoinPool" : {
+            "name" : "KuCoin Pool",
+            "link" : "https://www.kucoin.com/mining-pool"
+        },
         "triplemining" : {
             "name" : "TripleMining",
             "link" : "https://www.triplemining.com/"
@@ -1209,6 +1213,10 @@
         "1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
             "name" : "Foundry USA",
             "link" : "https://foundrydigital.com/"
+        },
+        "1ArTPjj6pV3aNRhLPjJVPYoxB98VLBzUmb" : {
+            "name" : "KuCoin Pool",
+            "link" : "https://www.kucoin.com/mining-pool"
         }
     }
 }
