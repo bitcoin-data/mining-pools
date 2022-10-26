@@ -4,7 +4,7 @@ import json
 import glob
 import sys
 
-output_file_name = "pools.json"
+output_file_name = "generated/pools.json"
 
 if len(sys.argv) == 2:
     print(f"Using {sys.argv[1]} as output file name.")
