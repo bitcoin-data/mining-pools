@@ -1,0 +1,12 @@
+{
+  "name": "KuCoin Pool",
+  "addresses": [
+    "1ArTPjj6pV3aNRhLPjJVPYoxB98VLBzUmb"
+  ],
+  "tags": [
+    "KuCoinPool"
+  ],
+  "links": [
+    "https://www.kucoin.com/mining-pool"
+  ]
+}
