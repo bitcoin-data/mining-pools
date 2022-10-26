@@ -1,8 +1,6 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Validate pool.json
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -23,3 +21,6 @@ jobs:
         env:
           INPUT_SCHEMA: .github/workflows/schema.json
           INPUT_JSONS: pools.json
+      - name: Check if pools.json is up-to-date (matches what's generated from entities/*.json)
+        run: ./qa/check-pool-json-uptodate.sh
+

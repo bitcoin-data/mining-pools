@@ -1,5 +1,14 @@
+#!/usr/bin/env python3
+
 import json
 import glob
+import sys
+
+output_file_name = "pools.json"
+
+if len(sys.argv) == 2:
+    print(f"Using {sys.argv[1]} as output file name.")
+    output_file_name = sys.argv[1]
 
 entity_files = glob.glob("entities/*.json")
 
@@ -22,7 +31,7 @@ for file_path in entity_files:
 addresses = dict(sorted(addresses.items()))
 tags = dict(sorted(tags.items()))
 
-with open("pools.json", "w") as out:
+with open(output_file_name, "w") as out:
     content = {
         "payout_addresses": addresses,
         "coinbase_tags": tags
