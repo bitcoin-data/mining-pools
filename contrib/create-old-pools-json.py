@@ -22,7 +22,7 @@ for file_path in entity_files:
 addresses = dict(sorted(addresses.items()))
 tags = dict(sorted(tags.items()))
 
-with open("pools-generated.json", "w") as out:
+with open("pools.json", "w") as out:
     content = {
         "payout_addresses": addresses,
         "coinbase_tags": tags
