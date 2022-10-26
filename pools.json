@@ -24,6 +24,10 @@
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
         },
+        "/pegapool/": {
+            "name" : "Pega Pool",
+            "link" : "https://www.pega-pool.com/"
+        },
         "btccom" : {
             "name" : "BTC.com",
             "link" : "https://pool.btc.com"
@@ -1245,6 +1249,10 @@
         "1MkCDCzHpBsYQivp8MxjY5AkTGG1f2baoe": {
             "name": "Luxor",
             "link": "https://mining.luxor.tech"
+        },
+        "1BGFwRzjCfRR7EvRHnzfHyFjGR8XiBDFKa": {
+            "name": "Pega Pool",
+            "link": "https://www.pega-pool.com/"
         },
         "1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
             "name" : "Foundry USA",
