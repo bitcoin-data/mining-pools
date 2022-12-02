@@ -48,6 +48,10 @@
       "name": "BitcoinRussia",
       "link": "https://bitcoin-russia.ru"
     },
+    "14hLEtxozmmih6Gg5xrGZLfx51bEMj21NW": {
+      "name": "Titan",
+      "link": "https://www.titan.io/"
+    },
     "14sA8jqYQgMRQV9zUtGFvpeMEw7YDn77SK": {
       "name": "Poolin",
       "link": "https://www.poolin.com/"
@@ -1145,6 +1149,10 @@
     "TBDice": {
       "name": "TBDice",
       "link": "https://tbdice.org/"
+    },
+    "Titan.io": {
+      "name": "Titan",
+      "link": "https://www.titan.io/"
     },
     "TogetherPool": {
       "name": "TogetherPool",
