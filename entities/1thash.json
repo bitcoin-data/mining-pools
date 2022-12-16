@@ -1,6 +1,9 @@
 {
   "name": "1THash",
-  "addresses": [],
+  "addresses": [
+    "147SwRQdpCfj5p8PnfsXV2SsVVpVcz3aPq",
+    "15vgygQ7ZsWdvZpctmTZK4673QBHsos6Sh"
+  ],
   "tags": [
     "/1THash&58COIN/",
     "/1THash/"
