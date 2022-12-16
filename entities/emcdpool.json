@@ -1,8 +1,12 @@
 {
   "name": "EMCDPool",
-  "addresses": [],
+  "addresses": [
+    "1BDbsWi3Mrcjp1wdop3PWFNCNZtu4R7Hjy"
+  ],
   "tags": [
-    "/one_more_mcd/"
+    "/EMCD/",
+    "/one_more_mcd/",
+    "get___emcd"
   ],
   "links": [
     "https://pool.emcd.io"
