@@ -1,7 +1,10 @@
 {
   "name": "CKPool",
   "addresses": [
-    "3P8sR3K8wAk3bom7tqpr5VrzCz9TVYNTQd"
+    "3P8sR3K8wAk3bom7tqpr5VrzCz9TVYNTQd",
+    "1ApE99VM5RJzMRRtwd2JMgmkGabtJqoMEz",
+    "1KGbsDDAgJN2HDNBjmMHp9828qATo5B9c9",
+    "1EowSPumj9D9AMTpE64Jr7vT3PJDNopVcz"
   ],
   "tags": [
     "/ckpool.org/",
