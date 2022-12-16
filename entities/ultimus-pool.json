@@ -1,12 +1,13 @@
 {
   "name": "Ultimus Pool",
   "addresses": [
-    "1EMVSMe1VJUuqv7D7SFzctnVXk4KdjXATi"
+    "1EMVSMe1VJUuqv7D7SFzctnVXk4KdjXATi",
+    "3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd"
   ],
   "tags": [
     "/ultimus/"
   ],
   "links": [
-    "https://www.ultimuspool.com/en"
+    "https://www.ultimuspool.com"
   ]
 }
