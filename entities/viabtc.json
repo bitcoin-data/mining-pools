@@ -2,11 +2,10 @@
   "name": "ViaBTC",
   "addresses": [],
   "tags": [
-    "viabtc.com deploy",
-    "/ViaBTC/"
+    "/ViaBTC/",
+    "viabtc.com deploy"
   ],
   "links": [
-    "https://viabtc.com",
-    "https://viabtc.com/"
+    "https://viabtc.com"
   ]
 }

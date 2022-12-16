@@ -1,16 +1,16 @@
 {
   "name": "BitFury",
   "addresses": [
-    "1AcAj9p6zJn4xLXdvmdiuPCtY7YkBPTAJo",
     "14yfxkcpHnju97pecpM7fjuTkVdtbkcfE6",
-    "1Nd99aNgYWpKkqcqSMgWtdtVDadewAS5F7",
-    "1FeDtFhARLxjKUPPkQqEBL78tisenc9znS"
+    "1AcAj9p6zJn4xLXdvmdiuPCtY7YkBPTAJo",
+    "1FeDtFhARLxjKUPPkQqEBL78tisenc9znS",
+    "1Nd99aNgYWpKkqcqSMgWtdtVDadewAS5F7"
   ],
   "tags": [
-    "/Bitfury/",
-    "/BitFury/"
+    "/BitFury/",
+    "/Bitfury/"
   ],
   "links": [
-    "https://bitfury.com/"
+    "https://bitfury.com"
   ]
 }

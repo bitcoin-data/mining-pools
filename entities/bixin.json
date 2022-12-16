@@ -1,15 +1,15 @@
 {
   "name": "Bixin",
   "addresses": [
-    "1KsFhYKLs8qb1GHqrPxHoywNQpet2CtP9t",
-    "13hQVEstgo4iPQZv9C7VELnLWF7UWtF4Q3"
+    "13hQVEstgo4iPQZv9C7VELnLWF7UWtF4Q3",
+    "1KsFhYKLs8qb1GHqrPxHoywNQpet2CtP9t"
   ],
   "tags": [
+    "/Bixin/",
     "/HaoBTC/",
-    "HAOBTC",
-    "/Bixin/"
+    "HAOBTC"
   ],
   "links": [
-    "https://haopool.com/"
+    "https://haopool.com"
   ]
 }

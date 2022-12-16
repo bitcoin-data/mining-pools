@@ -2,15 +2,15 @@
   "name": "Huobi Pool",
   "addresses": [
     "18Zcyxqna6h7Z7bRjhKvGpr8HSfieQWXqj",
-    "3HuobiNg2wHjdPU2mQczL9on8WF7hZmaGd",
+    "1EepjXgvWUoRyNvuLSAxjiqZ1QqKGDANLW",
     "1MvYASoHjqynMaMnP7SBmenyEWiLsTqoU6",
-    "1EepjXgvWUoRyNvuLSAxjiqZ1QqKGDANLW"
+    "3HuobiNg2wHjdPU2mQczL9on8WF7hZmaGd"
   ],
   "tags": [
     "/HuoBi/",
     "/Huobi/"
   ],
   "links": [
-    "https://www.hpt.com/"
+    "https://www.hpt.com"
   ]
 }

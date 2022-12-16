@@ -1,13 +1,13 @@
 {
   "name": "SlushPool",
   "addresses": [
-    "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE",
-    "1AqTMY7kmHZxBuLUR5wJjPFUvqGs23sesr"
+    "1AqTMY7kmHZxBuLUR5wJjPFUvqGs23sesr",
+    "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE"
   ],
   "tags": [
     "/slush/"
   ],
   "links": [
-    "https://slushpool.com/"
+    "https://slushpool.com"
   ]
 }

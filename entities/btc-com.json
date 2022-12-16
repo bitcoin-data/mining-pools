@@ -1,17 +1,17 @@
 {
   "name": "BTC.com",
   "addresses": [
-    "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U",
     "1Bf9sZvBHPFGVPX71WX2njhd1NXKv5y7v5",
     "34qkc2iac6RsyxZVfyE2S5U5WcRsbg2dpK",
     "36cWgjEtxQSFgbHTJDw5AB96ZX7fJk1URd",
-    "bc1qjl8uwezzlech723lpnyuza0h2cdkvxvh54v3dn",
-    "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv"
+    "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U",
+    "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv",
+    "bc1qjl8uwezzlech723lpnyuza0h2cdkvxvh54v3dn"
   ],
   "tags": [
     "/BTC.COM/",
-    "btccom",
-    "/BTC.com/"
+    "/BTC.com/",
+    "btccom"
   ],
   "links": [
     "https://pool.btc.com"
