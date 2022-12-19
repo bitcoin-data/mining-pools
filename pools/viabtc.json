@@ -5,7 +5,5 @@
     "/ViaBTC/",
     "viabtc.com deploy"
   ],
-  "links": [
-    "https://viabtc.com"
-  ]
+  "link": "https://viabtc.com"
 }

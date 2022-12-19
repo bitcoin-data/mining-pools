@@ -9,7 +9,5 @@
     "BTCChina.com",
     "btcchina.com"
   ],
-  "links": [
-    "https://pool.btcc.com"
-  ]
+  "link": "https://pool.btcc.com"
 }

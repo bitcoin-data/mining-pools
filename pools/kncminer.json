@@ -4,7 +4,5 @@
   "tags": [
     "KnCMiner"
   ],
-  "links": [
-    "https://portal.kncminer.com/pool"
-  ]
+  "link": "https://portal.kncminer.com/pool"
 }

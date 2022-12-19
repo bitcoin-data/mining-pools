@@ -19,9 +19,7 @@ for file_path in entity_files:
     with open(file_path, "r") as f:
         e = json.load(f)
         name = e["name"]
-        link = ""
-        if len(e["links"]) > 0:
-            link = e["links"][0]
+        link = e["link"]
         for addr in e["addresses"]:
             addresses[addr] = { "name": name, "link": link }
         for tag in e["tags"]:

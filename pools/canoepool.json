@@ -7,8 +7,5 @@
     "/CANOE/",
     "/canoepool/"
   ],
-  "links": [
-    "https://btc.canoepool.com",
-    "https://www.canoepool.com"
-  ]
+  "link": "https://canoepool.com"
 }

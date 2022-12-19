@@ -8,7 +8,5 @@
     "/one_more_mcd/",
     "get___emcd"
   ],
-  "links": [
-    "https://pool.emcd.io"
-  ]
+  "link": "https://pool.emcd.io"
 }

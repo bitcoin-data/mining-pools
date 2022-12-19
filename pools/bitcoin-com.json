@@ -4,7 +4,5 @@
   "tags": [
     "pool.bitcoin.com"
   ],
-  "links": [
-    "https://www.bitcoin.com"
-  ]
+  "link": "https://www.bitcoin.com"
 }

@@ -30,7 +30,5 @@
     "/AntPool/",
     "Mined by AntPool"
   ],
-  "links": [
-    "https://www.antpool.com"
-  ]
+  "link": "https://www.antpool.com"
 }

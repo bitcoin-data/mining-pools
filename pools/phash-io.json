@@ -5,7 +5,5 @@
     "/phash.cn/",
     "/phash.io/"
   ],
-  "links": [
-    "https://phash.io"
-  ]
+  "link": "https://phash.io"
 }

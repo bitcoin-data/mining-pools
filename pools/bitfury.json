@@ -10,7 +10,5 @@
     "/BitFury/",
     "/Bitfury/"
   ],
-  "links": [
-    "https://bitfury.com"
-  ]
+  "link": "https://bitfury.com"
 }

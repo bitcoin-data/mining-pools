@@ -19,7 +19,5 @@
     "/poolin",
     "/poolin.com"
   ],
-  "links": [
-    "https://www.poolin.com"
-  ]
+  "link": "https://www.poolin.com"
 }

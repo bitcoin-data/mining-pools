@@ -16,9 +16,7 @@ folder. For each pool, the following information is included in the JSON file:
     "/example/",
     "Example Pool"
   ],
-  "links": [
-    "https://example.com"
-  ]
+  "link": "https://example.com"
 }
 ```
 

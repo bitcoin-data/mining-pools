@@ -6,7 +6,5 @@
   "tags": [
     "KuCoinPool"
   ],
-  "links": [
-    "https://www.kucoin.com/mining-pool"
-  ]
+  "link": "https://www.kucoin.com/mining-pool"
 }

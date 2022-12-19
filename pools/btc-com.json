@@ -13,7 +13,5 @@
     "/BTC.com/",
     "btccom"
   ],
-  "links": [
-    "https://pool.btc.com"
-  ]
+  "link": "https://pool.btc.com"
 }
