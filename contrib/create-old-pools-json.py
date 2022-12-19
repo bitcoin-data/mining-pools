@@ -10,7 +10,7 @@ if len(sys.argv) == 2:
     print(f"Using {sys.argv[1]} as output file name.")
     output_file_name = sys.argv[1]
 
-entity_files = glob.glob("entities/*.json")
+entity_files = glob.glob("pools/*.json")
 
 addresses = dict()
 tags = dict()
