@@ -1,8 +1,10 @@
 {
-  "name": "BTCPool",
+  "name": "BTCPool (unidentified)",
   "addresses": [
     "1Ca1KNQQo8akbrwTjjXuk8aikvC2pwodU2"
   ],
-  "tags": [],
-  "link": ""
+  "tags": [
+    "BTCPool"
+  ],
+  "link": "https://github.com/0xB10C/known-mining-pools/issues/28"
 }
