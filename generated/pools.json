@@ -505,7 +505,7 @@
       "link": "https://www.telco214.com"
     },
     "1LsFmhnne74EmU4q4aobfxfrWY4wfMVd8w": {
-      "name": "tiger",
+      "name": "Tiger Pool",
       "link": ""
     },
     "1M1Xw2rczxkF3p3wiNHaTmxvbpZZ7M6vaa": {
@@ -1034,10 +1034,6 @@
       "name": "Solo CK",
       "link": "https://solo.ckpool.org"
     },
-    "/tigerpool.net": {
-      "name": "tigerpool.net",
-      "link": ""
-    },
     "/ultimus/": {
       "name": "Ultimus Pool",
       "link": "https://www.ultimuspool.com"
@@ -1321,6 +1317,14 @@
     "terrapool.io": {
       "name": "Terra Pool",
       "link": "https://terrapool.io"
+    },
+    "tiger": {
+      "name": "Tiger Pool",
+      "link": ""
+    },
+    "tigerpool.net": {
+      "name": "Tiger Pool",
+      "link": ""
     },
     "triplemining": {
       "name": "TripleMining",
