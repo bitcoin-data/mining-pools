@@ -4,7 +4,7 @@
 
 tmp_GENERATED=$(mktemp)
 
-python3 contrib/create-old-pools-json.py $tmp_GENERATED
+python3 contrib/generate-old-pools-json.py $tmp_GENERATED
 
 diff_output=$(diff generated/pools.json $tmp_GENERATED --color=always --minimal)
 
