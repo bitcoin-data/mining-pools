@@ -1,4 +1,4 @@
-name: Validate pool.json
+name: check generated files
 
 # Controls when the action will run.
 on:
@@ -12,16 +12,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  json-validation:
+  generated-up-to-date:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: .github/workflows/schema.json
-          INPUT_JSONS: pools.json
-      - name: Check if pools.json is up-to-date (matches what's generated from entities/*.json)
-        run: ./qa/check-pool-json-uptodate.sh
       - name: Check if the pool data is valid.
         run: python3 qa/check-data.py
+      - name: Check if the generated files are up-to-date
+        run: ./qa/check-generated-up-to-date.sh
