@@ -242,7 +242,7 @@
     },
     "1AZ6BkCo4zgTuuLpRStJH8iNsehXTMp456": {
       "name": "BitcoinIndia",
-      "link": "https://pool.bitcoin-india.org"
+      "link": "https://bitcoin-india.org"
     },
     "1AajKXkaq2DsnDmP8ZPTrE5gH1HFo1x3AU": {
       "name": "Polmine",
@@ -811,7 +811,7 @@
       "link": "https://bitfury.com"
     },
     "/Bitcoin-India/": {
-      "name": "Bitcoin India",
+      "name": "BitcoinIndia",
       "link": "https://bitcoin-india.org"
     },
     "/Bitcoin-Russia.ru/": {

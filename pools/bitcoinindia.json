@@ -4,6 +4,8 @@
   "addresses": [
     "1AZ6BkCo4zgTuuLpRStJH8iNsehXTMp456"
   ],
-  "tags": [],
-  "link": "https://pool.bitcoin-india.org"
+  "tags": [
+    "/Bitcoin-India/"
+  ],
+  "link": "https://bitcoin-india.org"
 }
