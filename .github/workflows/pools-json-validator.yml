@@ -23,4 +23,5 @@ jobs:
           INPUT_JSONS: pools.json
       - name: Check if pools.json is up-to-date (matches what's generated from entities/*.json)
         run: ./qa/check-pool-json-uptodate.sh
-
+      - name: Check if the pool data is valid.
+        run: python3 qa/check-data.py
