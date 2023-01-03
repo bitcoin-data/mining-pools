@@ -7,7 +7,7 @@ folder. For each pool, the following information is included in the JSON file:
 
 ```JSON
 {
-  "id": "examplepool",
+  "id": 7,
   "name": "Example Pool",
   "addresses": [
     "15kDhRAcpgsugmh6mQsTcCHdvbsuYncEEV",
