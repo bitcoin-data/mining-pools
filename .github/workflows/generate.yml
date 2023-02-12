@@ -1,0 +1,45 @@
+# This workflow generates files that can be consumed by downstream tools.
+
+name: generate
+
+env:
+  FILENAME_POOL_LIST: pool-list.json
+  FILENAME_POOLS_JSON: pools.json
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate-and-push:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Configure git
+      run: |
+        git config --local user.email "bitcoin-data@users.noreply.github.com"
+        git config --local user.name "bitcoin-data"
+    - name: Generate files
+      run: |
+          python3 contrib/generate-json-pool-list.py new-$FILENAME_POOL_LIST
+          python3 contrib/generate-old-pools-json.py new-$FILENAME_POOLS_JSON
+    - name: Checkout 'generated' branch
+      run:
+        git checkout generated
+    - name: Overwrite old files
+      run: |
+        mv new-$FILENAME_POOL_LIST    $FILENAME_POOL_LIST
+        mv new-$FILENAME_POOLS_JSON   $FILENAME_POOLS_JSON
+    - name: Commit changes
+      run: |
+        git add *.json
+        git commit -m "Update generated files: $(date)" -a || true
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: generated

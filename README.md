@@ -25,9 +25,10 @@ The JSON files aren't intended for direct consumption by tools trying to
 identify mining pools. The format may change. Rather, the data in the
 JSON-files should be used to generate a file suitable for consumption by
 down-stream tools. An example is the `contrib/generate-old-pools-json.py`
-script which generates `generated/pools.json`. This file was previously
-used to collect the coinbase tags and addresses and is still used by some
-tools.
+script which generates `pools.json`. This file was previously used to
+collect the coinbase tags and addresses and is still used by some tools.
+
+The generated files can be found in the `generated` branch.
 
 ## Origin
 
