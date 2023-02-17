@@ -1,26 +1,35 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import glob
 import sys
 
-output_file_name = "pool-list.json"
+DEFAULT_ENTITIES_DIR = "pools/"
+DEFAULT_OUTPUT = "pool-list.json"
 
-if len(sys.argv) == 2:
-    print(f"Using {sys.argv[1]} as output file name.")
-    output_file_name = sys.argv[1]
+def main(args):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("output", default=DEFAULT_OUTPUT, type=str, help="output file name", nargs="?")
+    parser.add_argument("entities", default=DEFAULT_ENTITIES_DIR, type=str, help="entities directory", nargs="?")
 
-entity_files = glob.glob("pools/*.json")
+    args = parser.parse_args(args)
 
-pools = list()
+    if args.output != DEFAULT_OUTPUT:
+        print(f"Using {args.output} as output file name.")
 
-for file_path in entity_files:
-    with open(file_path, "r") as f:
-        e = json.load(f)
-        pools.append(e)
+    entity_files = glob.glob(args.entities + "/*.json")
+    pools = list()
 
-pools.sort(key = lambda p: p["id"])
+    for file_path in entity_files:
+        with open(file_path, "r") as f:
+            e = json.load(f)
+            pools.append(e)
 
-with open(output_file_name, "w") as out:
-    json.dump(pools, out, indent = 2, ensure_ascii=False)
+    pools.sort(key = lambda p: p["id"])
 
+    with open(args.output, "w") as out:
+        json.dump(pools, out, indent = 2, ensure_ascii=False)
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
