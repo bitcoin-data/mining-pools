@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "name": "signet-1",
+  "addresses": [
+    "tb1qsygnet2jdqm8n2p7wmmklp9yel3k7agpnycv4f"
+  ],
+  "tags": [
+    "/signet:1/"
+  ],
+  "link": "https://en.bitcoin.it/wiki/Signet"
+}
