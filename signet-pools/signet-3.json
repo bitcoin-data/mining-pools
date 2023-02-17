@@ -1,0 +1,11 @@
+{
+  "id": 3,
+  "name": "signet-3 (inquisition)",
+  "addresses": [
+    "tb1pwzv7fv35yl7ypwj8w7al2t8apd6yf4568cs772qjwper74xqc99sk8x7tk"
+  ],
+  "tags": [
+    "/signet:3/"
+  ],
+  "link": "https://github.com/bitcoin-inquisition/bitcoin/wiki"
+}

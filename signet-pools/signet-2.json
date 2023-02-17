@@ -1,0 +1,10 @@
+{
+  "id": 2,
+  "name": "signet-2",
+  "addresses": [
+  ],
+  "tags": [
+    "/signet:2/"
+  ],
+  "link": "https://en.bitcoin.it/wiki/Signet"
+}
