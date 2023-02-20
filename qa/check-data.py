@@ -1,48 +1,63 @@
 #!/usr/bin/env python3
 
+import argparse
 import json
 import glob
 import sys
 
-entity_files = glob.glob("pools/*.json")
 
-ids = set()
-max_id = -1
+DEFAULT_ENTITIES_DIR = "pools/"
 
-for file_path in entity_files:
-    with open(file_path, "r") as f:
-        e = json.load(f)
 
-        id = e["id"]
-        name = e["name"]
-        addresses = e["addresses"]
-        tags = e["tags"]
-        link = e["link"]
+def main(args):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("entities", default=DEFAULT_ENTITIES_DIR,
+                        type=str, help="entities directory", nargs="?")
+    args = parser.parse_args(args)
 
-        try:
+    entity_files = glob.glob(args.entities + "/*.json")
 
-            id_already_used = id in ids
-            assert type(id) == int, "ID is not of type int"
-            assert not id_already_used, f"ID {id} is already used"
-            assert id != 0, f"ID should not be zero"
-            ids.add(id)
-            max_id = max(id, max_id)
+    ids = set()
+    max_id = -1
 
-            assert type(name) == str, "mame is not of type string"
+    for file_path in entity_files:
+        with open(file_path, "r") as f:
+            e = json.load(f)
 
-            assert type(addresses) == list, "addresses is not of type list"
-            assert type(tags) == list, "tags is not of type list"
+            id = e["id"]
+            name = e["name"]
+            addresses = e["addresses"]
+            tags = e["tags"]
+            link = e["link"]
 
-            # we should have at least one tag or address
-            assert len(addresses) + len(tags) > 0, "addresses and tags both are empty"
+            try:
+                id_already_used = id in ids
+                assert type(id) == int, "ID is not of type int"
+                assert not id_already_used, f"ID {id} is already used"
+                assert id != 0, f"ID should not be zero"
+                ids.add(id)
+                max_id = max(id, max_id)
 
-            assert type(link) == str, "link is not of type string"
+                assert type(name) == str, "mame is not of type string"
 
-        except Exception as ex:
-            print(f"Invalid pool in file {file_path}.")
-            print(f"Pool: {json.dumps(e, indent=2, ensure_ascii=False)}")
-            raise ex
+                assert type(addresses) == list, "addresses is not of type list"
+                assert type(tags) == list, "tags is not of type list"
 
-print("No problems found.")
-print(f"The maximum ID is {max_id}.")
-print(f"Use ID {max_id + 1} when creating a new pool JSON file.")
+                # we should have at least one tag or address
+                assert len(addresses) + \
+                    len(tags) > 0, "addresses and tags both are empty"
+
+                assert type(link) == str, "link is not of type string"
+
+            except Exception as ex:
+                print(f"Invalid pool in file {file_path}.")
+                print(f"Pool: {json.dumps(e, indent=2, ensure_ascii=False)}")
+                raise ex
+
+    print("No problems found.")
+    print(f"The maximum ID is {max_id}.")
+    print(f"Use ID {max_id + 1} when creating a new pool JSON file.")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
