@@ -12,5 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Check if the pool data is valid.
+      - name: Check if the mainnet pool data is valid.
         run: python3 qa/check-data.py
+      - name: Check if the signet pool data is valid.
+        run: python3 qa/check-data.py signet-pools
