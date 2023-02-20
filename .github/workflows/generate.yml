@@ -23,17 +23,23 @@ jobs:
       run: |
         git config --local user.email "bitcoin-data@users.noreply.github.com"
         git config --local user.name "bitcoin-data"
-    - name: Generate files
+    - name: Generate mainnet files
       run: |
           python3 contrib/generate-json-pool-list.py new-$FILENAME_POOL_LIST
           python3 contrib/generate-old-pools-json.py new-$FILENAME_POOLS_JSON
+    - name: Generate signet files
+      run: |
+          python3 contrib/generate-json-pool-list.py new-signet-$FILENAME_POOL_LIST signet-pools/
+          python3 contrib/generate-old-pools-json.py new-signet-$FILENAME_POOLS_JSON signet-pools/
     - name: Checkout 'generated' branch
       run:
         git checkout generated
     - name: Overwrite old files
       run: |
-        mv new-$FILENAME_POOL_LIST    $FILENAME_POOL_LIST
-        mv new-$FILENAME_POOLS_JSON   $FILENAME_POOLS_JSON
+        mv new-$FILENAME_POOL_LIST            $FILENAME_POOL_LIST
+        mv new-$FILENAME_POOLS_JSON           $FILENAME_POOLS_JSON
+        mv new-signet-$FILENAME_POOL_LIST     signet-$FILENAME_POOL_LIST
+        mv new-signet-$FILENAME_POOLS_JSON    signet-$FILENAME_POOLS_JSON
     - name: Commit changes
       run: |
         git add *.json
