@@ -2,8 +2,9 @@
   "id": 13,
   "name": "Carbon Negative (unidentified)",
   "addresses": [
-    "33SAB6pzbhEGPbfY6NVgRDV7jVfspZ3A3Z"
+    "33SAB6pzbhEGPbfY6NVgRDV7jVfspZ3A3Z",
+    "3KZDwmJHB6QJ13QPXHaW7SS3yTESFPZoxb"
   ],
   "tags": [],
-  "link": "https://github.com/0xB10C/known-mining-pools/issues/48"
+  "link": "https://github.com/bitcoin-data/mining-pools/issues/48"
 }
