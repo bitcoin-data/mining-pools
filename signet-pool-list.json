@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "name": "signet-1",
+    "addresses": [
+      "tb1qsygnet2jdqm8n2p7wmmklp9yel3k7agpnycv4f"
+    ],
+    "tags": [
+      "/signet:1/"
+    ],
+    "link": "https://en.bitcoin.it/wiki/Signet"
+  },
+  {
+    "id": 2,
+    "name": "signet-2",
+    "addresses": [],
+    "tags": [
+      "/signet:2/"
+    ],
+    "link": "https://en.bitcoin.it/wiki/Signet"
+  },
+  {
+    "id": 3,
+    "name": "signet-3 (inquisition)",
+    "addresses": [
+      "tb1pwzv7fv35yl7ypwj8w7al2t8apd6yf4568cs772qjwper74xqc99sk8x7tk"
+    ],
+    "tags": [
+      "/signet:3/"
+    ],
+    "link": "https://github.com/bitcoin-inquisition/bitcoin/wiki"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "payout_addresses": {
+    "tb1pwzv7fv35yl7ypwj8w7al2t8apd6yf4568cs772qjwper74xqc99sk8x7tk": {
+      "name": "signet-3 (inquisition)",
+      "link": "https://github.com/bitcoin-inquisition/bitcoin/wiki"
+    },
+    "tb1qsygnet2jdqm8n2p7wmmklp9yel3k7agpnycv4f": {
+      "name": "signet-1",
+      "link": "https://en.bitcoin.it/wiki/Signet"
+    }
+  },
+  "coinbase_tags": {
+    "/signet:1/": {
+      "name": "signet-1",
+      "link": "https://en.bitcoin.it/wiki/Signet"
+    },
+    "/signet:2/": {
+      "name": "signet-2",
+      "link": "https://en.bitcoin.it/wiki/Signet"
+    },
+    "/signet:3/": {
+      "name": "signet-3 (inquisition)",
+      "link": "https://github.com/bitcoin-inquisition/bitcoin/wiki"
+    }
+  }
+}
