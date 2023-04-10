@@ -632,6 +632,10 @@
       "name": "SpiderPool",
       "link": "https://www.spiderpool.com"
     },
+    "39bitUyBcUu3y3hRTtYprKbTp712t4ZWqK": {
+      "name": "Luxor",
+      "link": "https://mining.luxor.tech"
+    },
     "39m5Wvn9ZqyhYmCYpsyHuGMt5YYw4Vmh1Z": {
       "name": "BytePool",
       "link": "https://www.bytepool.com"
@@ -1189,6 +1193,10 @@
     "MiningCity": {
       "name": "MiningCity",
       "link": "https://www.miningcity.com"
+    },
+    "Powered by Luxor Tech": {
+      "name": "Luxor",
+      "link": "https://mining.luxor.tech"
     },
     "SBI Crypto": {
       "name": "SBI Crypto",
