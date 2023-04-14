@@ -728,6 +728,10 @@
       "name": "BTC.com",
       "link": "https://pool.btc.com"
     },
+    "bc1qvfzssz36y4gxcg9gh234rzem9k0vrdlx4kq5sg": {
+      "name": "NiceHash",
+      "link": "https://nicehash.com"
+    },
     "bc1qwlrsvgtn99rqp3fgaxq6f6jkgms80rnej0a8tc": {
       "name": "TogetherPool",
       "link": "https://www.togetherpool.com"
@@ -910,9 +914,13 @@
       "name": "Nexious",
       "link": "https://nexious.com"
     },
+    "/NiceHash/": {
+      "name": "NiceHash",
+      "link": "https://nicehash.com"
+    },
     "/NiceHashSolo": {
       "name": "NiceHash",
-      "link": "https://solo.nicehash.com"
+      "link": "https://nicehash.com"
     },
     "/NovaBlock/": {
       "name": "NovaBlock",
