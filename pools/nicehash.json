@@ -1,9 +1,12 @@
 {
   "id": 103,
   "name": "NiceHash",
-  "addresses": [],
-  "tags": [
-    "/NiceHashSolo"
+  "addresses": [
+    "bc1qvfzssz36y4gxcg9gh234rzem9k0vrdlx4kq5sg"
   ],
-  "link": "https://solo.nicehash.com"
+  "tags": [
+    "/NiceHashSolo",
+    "/NiceHash/"
+  ],
+  "link": "https://nicehash.com"
 }
