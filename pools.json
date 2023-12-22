@@ -644,6 +644,10 @@
       "name": "Poolin",
       "link": "https://www.poolin.com"
     },
+    "3Awm3FNpmwrbvAFVThRUFqgpbVuqWisni9": {
+      "name": "SecPool",
+      "link": "https://www.secpool.com/"
+    },
     "3Bmb9Jig8A5kHdDSxvDZ6eryj3AXd3swuJ": {
       "name": "NovaBlock",
       "link": "https://novablock.com"
@@ -1221,6 +1225,10 @@
     "SBICrypto": {
       "name": "SBI Crypto",
       "link": "https://sbicrypto.com"
+    },
+    "SecPool": {
+      "name": "SecPool",
+      "link": "https://www.secpool.com/"
     },
     "TBDice": {
       "name": "TBDice",

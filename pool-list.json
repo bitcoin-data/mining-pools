@@ -1534,5 +1534,16 @@
       "OCEAN.XYZ"
     ],
     "link": "https://ocean.xyz/"
+  },
+  {
+    "id": 146,
+    "name": "SecPool",
+    "addresses": [
+      "3Awm3FNpmwrbvAFVThRUFqgpbVuqWisni9"
+    ],
+    "tags": [
+      "SecPool"
+    ],
+    "link": "https://www.secpool.com/"
   }
 ]
