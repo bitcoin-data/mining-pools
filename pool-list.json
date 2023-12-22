@@ -1545,5 +1545,16 @@
       "SecPool"
     ],
     "link": "https://www.secpool.com/"
+  },
+  {
+    "id": 147,
+    "name": "CleanIncentive",
+    "addresses": [
+      "bc1qrm09asqsxh2l7pjxjlltm53tx689dp2amzupzq"
+    ],
+    "tags": [
+      "Validated with Clean Energy"
+    ],
+    "link": "cleanincentive.com"
   }
 ]

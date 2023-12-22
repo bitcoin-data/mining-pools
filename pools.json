@@ -732,6 +732,10 @@
       "name": "BTC.com",
       "link": "https://pool.btc.com"
     },
+    "bc1qrm09asqsxh2l7pjxjlltm53tx689dp2amzupzq": {
+      "name": "CleanIncentive",
+      "link": "cleanincentive.com"
+    },
     "bc1qvfzssz36y4gxcg9gh234rzem9k0vrdlx4kq5sg": {
       "name": "NiceHash",
       "link": "https://nicehash.com"
@@ -1249,6 +1253,10 @@
     "Ukrpool.com": {
       "name": "UKRPool",
       "link": "https://ukrpool.com"
+    },
+    "Validated with Clean Energy": {
+      "name": "CleanIncentive",
+      "link": "cleanincentive.com"
     },
     "bcpool.io": {
       "name": "bcpool.io",
