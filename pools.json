@@ -64,6 +64,10 @@
       "name": "BitcoinRussia",
       "link": "https://bitcoin-russia.ru"
     },
+    "14VkxDwSAUWrzYTxV49HnYhKLWTJ3pCoUS": {
+      "name": "WhitePool",
+      "link": ""
+    },
     "14hLEtxozmmih6Gg5xrGZLfx51bEMj21NW": {
       "name": "Titan",
       "link": "https://titan.io"
@@ -1257,6 +1261,10 @@
     "Validated with Clean Energy": {
       "name": "CleanIncentive",
       "link": "cleanincentive.com"
+    },
+    "WhitePool": {
+      "name": "WhitePool",
+      "link": ""
     },
     "bcpool.io": {
       "name": "bcpool.io",
