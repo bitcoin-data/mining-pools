@@ -314,10 +314,11 @@
     "name": "SpiderPool",
     "addresses": [
       "125m2H43pwKpSZjLhMQHneuTwTJN5qRyYu",
-      "38u1srayb1oybVB43UWKBJsrwJbdHGtPx2"
+      "38u1srayb1oybVB43UWKBJsrwJbdHGtPx2",
+      "1BM1sAcrfV6d4zPKytzziu4McLQDsFC2Qc"
     ],
     "tags": [
-      "/SpiderPool/"
+      "SpiderPool"
     ],
     "link": "https://www.spiderpool.com"
   },

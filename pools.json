@@ -288,6 +288,10 @@
       "name": "Pega Pool",
       "link": "https://www.pega-pool.com"
     },
+    "1BM1sAcrfV6d4zPKytzziu4McLQDsFC2Qc": {
+      "name": "SpiderPool",
+      "link": "https://www.spiderpool.com"
+    },
     "1BRY8AD7vSNUEE75NjzfgiG18mWjGQSRuJ": {
       "name": "UNOMP",
       "link": "https://199.115.116.7:8925"
@@ -962,10 +966,6 @@
       "name": "Sigmapool.com",
       "link": "https://sigmapool.com"
     },
-    "/SpiderPool/": {
-      "name": "SpiderPool",
-      "link": "https://www.spiderpool.com"
-    },
     "/TMSPOOL/": {
       "name": "TMSPool",
       "link": "https://btc.tmspool.top"
@@ -1241,6 +1241,10 @@
     "SecPool": {
       "name": "SecPool",
       "link": "https://www.secpool.com/"
+    },
+    "SpiderPool": {
+      "name": "SpiderPool",
+      "link": "https://www.spiderpool.com"
     },
     "TBDice": {
       "name": "TBDice",
