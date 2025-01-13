@@ -260,6 +260,10 @@
       "name": "Tricky's BTC Pool",
       "link": "https://pool.wemine.uk"
     },
+    "1AfPSq5ZbqBaxU5QAayLQJMcXV8HZt92eq": {
+      "name": "Mining-Dutch",
+      "link": "https://www.mining-dutch.nl/"
+    },
     "1Afcpc2FpPnREU6i52K3cicmHdvYRAH9Wo": {
       "name": "CANOE",
       "link": "https://www.canoepool.com"
@@ -941,6 +945,10 @@
     "/Minerium.com/": {
       "name": "Minerium",
       "link": "https://www.minerium.com"
+    },
+    "/Mining-Dutch/": {
+      "name": "Mining-Dutch",
+      "link": "https://www.mining-dutch.nl/"
     },
     "/Nexious/": {
       "name": "Nexious",
