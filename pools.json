@@ -636,6 +636,10 @@
       "name": "Poolin",
       "link": "https://www.poolin.com"
     },
+    "36r3YqAXWpyqNcczjCBdHrYZ3m8X56WDzx": {
+      "name": "MaxiPool",
+      "link": "https://maxipool.org/"
+    },
     "38u1srayb1oybVB43UWKBJsrwJbdHGtPx2": {
       "name": "SpiderPool",
       "link": "https://www.spiderpool.com"
@@ -925,6 +929,10 @@
     "/Mara Pool/": {
       "name": "MARA Pool",
       "link": "https://www.mara.com/"
+    },
+    "/MaxiPool/": {
+      "name": "MaxiPool",
+      "link": "https://maxipool.org/"
     },
     "/Mined by HashBX.io/": {
       "name": "HashBX",
