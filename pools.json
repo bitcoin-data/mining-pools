@@ -688,6 +688,10 @@
       "name": "Huobi Pool",
       "link": "https://www.hpt.com"
     },
+    "3JP3zF7LoeoAotqkNGdvX5szUyNPwd937d": {
+      "name": "BitFuFu",
+      "link": "https://www.bitfufu.com/pool"
+    },
     "3JQSigWTCHyBLRD979JWgEtWP5YiiFwcQB": {
       "name": "Poolin",
       "link": "https://www.poolin.com"
@@ -1117,6 +1121,10 @@
     "BWPool": {
       "name": "BWPool",
       "link": "https://bwpool.net"
+    },
+    "BitFuFu": {
+      "name": "BitFuFu",
+      "link": "https://www.bitfufu.com/pool"
     },
     "BitMinter": {
       "name": "BitMinter",
