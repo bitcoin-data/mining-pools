@@ -22,6 +22,7 @@ def main(args):
 
     for file_path in entity_files:
         with open(file_path, "r") as f:
+            print(f"reading file {file_path}..")
             e = json.load(f)
 
             id = e["id"]
