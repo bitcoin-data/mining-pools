@@ -1,7 +1,9 @@
 {
   "id": 110,
   "name": "ViaBTC",
-  "addresses": [],
+  "addresses": [
+    "1PuJjnF476W3zXfVYmJfGnouzFDAXakkL4"
+  ],
   "tags": [
     "/ViaBTC/",
     "viabtc.com deploy"
