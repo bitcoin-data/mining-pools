@@ -546,7 +546,7 @@
     },
     "1MkCDCzHpBsYQivp8MxjY5AkTGG1f2baoe": {
       "name": "Luxor",
-      "link": "https://mining.luxor.tech"
+      "link": "https://luxor.tech/mining"
     },
     "1MoYfV4U61wqTPTHCyedzFmvf2o3uys2Ua": {
       "name": "Telco 214",
@@ -612,6 +612,10 @@
       "name": "transactioncoinmining",
       "link": "https://sha256.transactioncoinmining.com"
     },
+    "32BfKjhByDSxx3BM5vUkQ3NQq9csZR6nt6": {
+      "name": "Luxor",
+      "link": "https://luxor.tech/mining"
+    },
     "32P5KVSbZYAkVmSHxDd2oBXaSk372rbV7L": {
       "name": "Terra Pool",
       "link": "https://terrapool.io"
@@ -662,7 +666,7 @@
     },
     "39bitUyBcUu3y3hRTtYprKbTp712t4ZWqK": {
       "name": "Luxor",
-      "link": "https://mining.luxor.tech"
+      "link": "https://luxor.tech/mining"
     },
     "39m5Wvn9ZqyhYmCYpsyHuGMt5YYw4Vmh1Z": {
       "name": "BytePool",
@@ -948,7 +952,7 @@
     },
     "/LUXOR/": {
       "name": "Luxor",
-      "link": "https://mining.luxor.tech"
+      "link": "https://luxor.tech/mining"
     },
     "/Mara Pool/": {
       "name": "MARA Pool",
@@ -1238,6 +1242,10 @@
       "name": "KuCoin Pool",
       "link": "https://www.kucoin.com/mining-pool"
     },
+    "Luxor Tech": {
+      "name": "Luxor",
+      "link": "https://luxor.tech/mining"
+    },
     "MARA Made in USA": {
       "name": "MARA Pool",
       "link": "https://www.mara.com/"
@@ -1273,10 +1281,6 @@
     "OCEAN.XYZ": {
       "name": "Ocean.xyz",
       "link": "https://ocean.xyz/"
-    },
-    "Powered by Luxor Tech": {
-      "name": "Luxor",
-      "link": "https://mining.luxor.tech"
     },
     "SBI Crypto": {
       "name": "SBI Crypto",
