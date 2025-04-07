@@ -708,6 +708,10 @@
       "name": "Binance Pool",
       "link": "https://pool.binance.com"
     },
+    "3GdjWJdkJhtkxRZ3Ns1LstaoHNMBW8XsvU": {
+      "name": "Mining Squared",
+      "link": "https://pool.bsquared.network/"
+    },
     "3GvEGtnvgeBJ3p3EpdZhvUkxY4pDARkbjd": {
       "name": "Bitfarms",
       "link": "https://www.bitfarms.io"
@@ -1138,6 +1142,10 @@
       "name": "Bitfarms",
       "link": "https://www.bitfarms.io"
     },
+    "BSquared Network": {
+      "name": "Mining Squared",
+      "link": "https://pool.bsquared.network/"
+    },
     "BTC Guild": {
       "name": "BTC Guild",
       "link": "https://www.btcguild.com"
@@ -1277,6 +1285,10 @@
     "MiningCity": {
       "name": "MiningCity",
       "link": "https://www.miningcity.com"
+    },
+    "MiningSquared": {
+      "name": "Mining Squared",
+      "link": "https://pool.bsquared.network/"
     },
     "OCEAN.XYZ": {
       "name": "Ocean.xyz",

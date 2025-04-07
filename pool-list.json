@@ -1610,5 +1610,17 @@
       "/Mining-Dutch/"
     ],
     "link": "https://www.mining-dutch.nl/"
+  },
+  {
+    "id": 152,
+    "name": "Mining Squared",
+    "addresses": [
+      "3GdjWJdkJhtkxRZ3Ns1LstaoHNMBW8XsvU"
+    ],
+    "tags": [
+      "MiningSquared",
+      "BSquared Network"
+    ],
+    "link": "https://pool.bsquared.network/"
   }
 ]
