@@ -764,6 +764,10 @@
       "name": "Terra Pool",
       "link": "https://terrapool.io"
     },
+    "bc1q75t4wewkmf3l9qg097zvtlh05v5pdz6699kv8k": {
+      "name": "Innopolis Tech",
+      "link": "https://innopolis.tech/"
+    },
     "bc1q7wedv4zdu5smt3shljpu5mgns48jn299mukymc": {
       "name": "F2Pool",
       "link": "https://www.f2pool.com"
@@ -1237,6 +1241,10 @@
     "Hummerpool": {
       "name": "Hummerpool",
       "link": "https://www.hummerpool.com"
+    },
+    "Innopolis": {
+      "name": "Innopolis Tech",
+      "link": "https://innopolis.tech/"
     },
     "Kano": {
       "name": "KanoPool",
