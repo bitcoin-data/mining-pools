@@ -1828,5 +1828,12 @@
     "addresses": [],
     "tags": ["/Noderunners/"],
     "link": "https://pool.noderunners.network"
+  },
+  {
+    "id": 171,
+    "name": "DMND",
+    "addresses": [],
+    "tags": ["/DMND/"],
+    "link": "https://www.dmnd.work/"
   }
 ]
