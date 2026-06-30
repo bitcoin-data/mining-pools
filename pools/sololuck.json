@@ -1,7 +1,9 @@
 {
   "id": 154,
   "name": "SoloLuck",
-  "addresses": [],
+  "addresses": [
+    "bc1q9t8v8e29xhhxlj3tt5ulj4dxal8ud3wreessha"
+  ],
   "tags": [
     "/sololuck.io/"
   ],
