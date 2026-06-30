@@ -368,6 +368,10 @@
       "name": "AntPool",
       "link": "https://www.antpool.com"
     },
+    "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1": {
+      "name": "GDPool",
+      "link": "https://mempool.space/mining/pool/gdpool"
+    },
     "1DyR7HPQWjM6Zrnk7SzHVY2GEpXRGNNH9o": {
       "name": "AntPool",
       "link": "https://www.antpool.com"
@@ -1222,6 +1226,10 @@
       "name": "Foundry USA",
       "link": "https://foundrydigital.com"
     },
+    "GDPool": {
+      "name": "GDPool",
+      "link": "https://mempool.space/mining/pool/gdpool"
+    },
     "Give-Me-Coins": {
       "name": "Give Me Coins",
       "link": "https://give-me-coins.com"
@@ -1261,6 +1269,10 @@
     "KuCoinPool": {
       "name": "KuCoin Pool",
       "link": "https://www.kucoin.com/mining-pool"
+    },
+    "Lucky pool": {
+      "name": "GDPool",
+      "link": "https://mempool.space/mining/pool/gdpool"
     },
     "Luxor Tech": {
       "name": "Luxor",
