@@ -1835,5 +1835,12 @@
     "addresses": [],
     "tags": ["/DMND/"],
     "link": "https://www.dmnd.work/"
+  },
+  {
+    "id": 172,
+    "name": "Bitaxe Pool",
+    "addresses": [],
+    "tags": ["/bitaxe.de/"],
+    "link": "https://pool.bitaxe.de"
   }
 ]
